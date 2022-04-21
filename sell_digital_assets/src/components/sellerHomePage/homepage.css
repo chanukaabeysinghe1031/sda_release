@@ -1,0 +1,145 @@
+.seller_dashBoard_main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    background-size: cover;
+    bottom: 0px;
+    background-color: black;
+    font-family: "Times New Roman";
+    /*background-image: url("../../assets/images/bg3.jpg");*/
+}
+
+.logoutbtn{
+    height: 10vh;
+    top: 10px;
+    position: relative;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    
+}
+
+.avatarContainer{
+   position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+.avatar{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+.displaySellerMenu{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    background-color: black;
+    width: 200px;
+    height: 250px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #e67e22;
+}
+.hideSellerMenu{
+    display: none;
+}
+.menuItem{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    /*border-radius: 100px;*/
+    margin: 10px;
+    cursor: pointer;
+}
+.menuItem:hover{
+    background-color: #e67e22;
+}
+.coindetails{
+    position: relative;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    right: 10px;
+    bottom: 0px;
+    font-size: 15px;
+
+}
+
+.mainhomecointainer{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    top: 150px;
+    /*left: 10%;*/
+    /*right: 80%;*/
+    /*width: 80vw;*/
+    position: absolute;
+    padding: 10px 10px 0px 10px;
+    background-color: black;
+    opacity: 0.9;
+    border: 1px solid #e67e22;
+    box-shadow: 0px 5px 50px #e67e22;
+    overflow: scroll;
+}
+
+.title{
+    position: absolute;
+    top: 20px;
+    color: #e67e22;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.coindetails{
+    padding-top: 25px;
+}
+.seller_dashboard_search{
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    width: 20%;
+    opacity: 0.5;
+    height: 30px;
+    background-color: #e67e22;
+    border-color: coral;
+    border-width: 2px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.seller_dashboard_search:hover{
+    border-style: none;
+    outline: none;
+}
+.sellbtn{
+    margin-top: 30px;
+}
+.table{
+    background-color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .seller_dashboard_search{
+        width: 40%;
+        left: 30%;
+    }
+}

@@ -1,0 +1,165 @@
+.seller_confirmation_main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    font-family: "Times New Roman";
+}
+.seller_confirmation_sub {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    background-color: black;
+    opacity: 0.9;
+    border: 1px solid #e67e22;
+    box-shadow: 0px 5px 50px #e67e22;
+    padding-top: 50px;
+    font-family: "Times New Roman";
+}
+.confirmation_selling_container{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 40% 60%;
+}
+.confirmation_selling_coin_title{
+    color: #e67e22;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.confirmation_selling_coin_component{
+    /*padding: 20px;*/
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.confirmation_selling_coin_image{
+    /*margin-left: 100px;*/
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    /*display: flex;*/
+    align-self: center;
+}
+
+.confirmation_selling_coin_header{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    align-self: center;
+}
+.confirmation_selling_coin_text{
+    align-self: center;
+    color: #e67e22;
+    font-size: 20px;
+}
+.coins_quantity_selection_component{
+    border-top: 2px solid grey;
+    margin: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.coinsQuantitySelector{
+    background-color: black;
+    border: 1px solid #e67e22;
+    align-self: center;
+    outline: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.displayTotalPrice{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.confirmation_selling_seller_component{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.confirmation_selling_seller_component_title{
+    color: grey;
+    font-size: 20px;
+}
+.sellerDetailsRow{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+.confirmation_selling_seller_header{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    align-self: center;
+    text-align: center;
+}
+.confirmation_selling_seller_filled_data{
+    color: #e67e22;
+    font-size: 15px;
+}
+.confirmation_selling_seller_text{
+    align-self: center;
+    color: #e67e22;
+    font-size: 15px;
+    padding: 2px;
+    padding-left: 20px;
+    border: 1px solid #e67e22;
+    border-radius: 10px;
+    background-color: black;
+    outline: none;
+}
+.sellerConfirmationAgreeBox{
+    display: flex;
+    flex-direction: column;
+}
+.confirmation_selling_seller_component_agree_details{
+    color: grey;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.sellerConfirmationAgreeBox{
+    align-self: center;
+    background-color: #e67e22;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+.sellerConfirmationAgreeBox:hover{
+    background-color: red;
+}
+.sellerConfirmationGoBack{
+    margin: 10px;
+    padding: 5px;
+    align-self: center;
+    color: red;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+.sellerConfirmationGoBack:hover{
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .seller_confirmation_sub{
+        overflow: scroll;
+    }
+    .confirmation_selling_container{
+        display: inline-block;
+    }
+}

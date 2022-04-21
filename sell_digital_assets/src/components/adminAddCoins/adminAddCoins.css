@@ -1,0 +1,173 @@
+.adminAddCoins_main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    font-family: "Times New Roman";
+    /*background-image: url("../../assets/images/bg3.jpg");*/
+}
+
+.adminAddCoins_sub {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    background-color: black;
+    opacity: 0.9;
+    border: 1px solid #e67e22;
+    box-shadow: 0px 5px 50px #e67e22;
+    font-family: "Times New Roman";
+}
+
+.adminAddCoins_title {
+    color: #e67e22;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.dynamicCoinsComponent {
+    width: 100%;
+    position: absolute;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.addCoinsComponent {
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin: 20px;
+    padding-top: 20%;
+}
+
+.addCoinForm {
+    margin-left: 10%;
+    width: 80%;
+}
+.addCoinInputContainer{
+    margin: 0px;
+    margin-top: 10px;
+    width: 100%;
+}
+.add_coin_label {
+    color: white;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.addCoinTextInput {
+    background-color: black;
+    border: 1px solid #e67e22;
+    width: 100%;
+    outline: none;
+    color: #e67e22;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.coinImageInput{
+    background-color: black;
+    border: 1px solid #e67e22;
+    width: 100%;
+    outline: none;
+    color: #e67e22;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+.addCoin_button{
+    width: 100%;
+    background-color: #e67e22;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.addCoin_error_message{
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+.displayCoinsComponent {
+    position: absolute;
+    right: 20px;
+    top:20px;
+    bottom: 20px;
+    left: 40%;
+    border: 1px solid grey;
+    border-radius: 50px;
+    overflow: scroll;
+}
+.adminDisplayCoinsList{
+    margin:20px;
+}
+
+.adminCoins_coin_image{
+    margin-left: 25%;
+    width: 50%;
+    height: 100px;
+    /*height: 100px;*/
+    /*align-self: center;*/
+}
+.coins_paper{
+
+}
+.adminCoinsName{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+.adminCoinsPrice{
+    text-align: center;
+    color:#e67e22;
+    font-size: 15px;
+}
+#adminCoins{
+    background-color: darkgrey;
+}
+@media only screen and (max-width: 1000px) {
+    .dynamicCoinsComponent {
+        width: 100%;
+        position: absolute;
+        height: 60%;
+        display:inline-block;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .addCoinsComponent {
+        border: none;
+        border-radius: 50px;
+        margin: 20px;
+        padding-top: 20px;
+    }
+
+    .displayCoinsComponent {
+        position: unset;
+        z-index: 1;
+        margin: 20px;
+        height: 100%;
+        border: none;
+        border: 2px solid #e67e22;
+        border-radius: 0px;
+        overflow: scroll;
+    }
+    .adminCoins_coin_image{
+        margin-left: 25%;
+        width: 50%;
+        height: 100px;
+        /*height: 100px;*/
+        /*align-self: center;*/
+    }
+}
