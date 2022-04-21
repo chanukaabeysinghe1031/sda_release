@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e300f8b1-5a96-4414-aa39-76eb2bba1cb7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sell_digital_assets/src/components/adminBuyCoins/adminBuyCoins.js" beforeDir="false" afterPath="$PROJECT_DIR$/sell_digital_assets/src/components/adminBuyCoins/adminBuyCoins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sell_digital_assets/src/components/adminTransactionDetails/adminTransactionDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/sell_digital_assets/src/components/adminTransactionDetails/adminTransactionDetails.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650520699170</updated>
       <workItem from="1650520704105" duration="100000" />
-      <workItem from="1650521467810" duration="350000" />
+      <workItem from="1650521467810" duration="3351000" />
     </task>
     <servers />
   </component>

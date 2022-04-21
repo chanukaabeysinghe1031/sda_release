@@ -54,7 +54,7 @@ class AdminBuyCoins extends Component {
                                     <h1 className="adminBuyCoins_title">Seller Details</h1>
                                     <div className="detailsComponent">
                                         <img className="adminBuyImage"
-                                             src={"http://localhost:3003/" + this.state.coinDetails.coinImage}
+                                             src={"http://localhost:3003/" + this.state.sellerDetails.avatar}
                                              alt="No image"/>
                                         <div className="adminBuyDataRow">
                                             <h7 className="adminBuyDetailsHeader">Name</h7>
