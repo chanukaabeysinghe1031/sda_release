@@ -7,7 +7,7 @@ const adminRouter = require('./api/routes/admin_routes')
 const cors = require('cors')
 const app = express();
 
-const PORT =  process.env.Port || 3003;
+const PORT =  process.env.NODE_ENV === 'production' ? (process.env.PORT || 80) : 3003;
 
 connectDB();
 app.use(cors());

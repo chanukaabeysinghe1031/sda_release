@@ -4,7 +4,11 @@
   "description": "This is the backend for sell your digital assets app",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "test": "nodemon server.js",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ../sell_digital_assets",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
   },
   "author": "Chanuka Abeysinghe",
   "license": "ISC",

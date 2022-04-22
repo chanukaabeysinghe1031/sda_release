@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e300f8b1-5a96-4414-aa39-76eb2bba1cb7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sell_digital_assets/src/components/adminBuyCoins/adminBuyCoins.js" beforeDir="false" afterPath="$PROJECT_DIR$/sell_digital_assets/src/components/adminBuyCoins/adminBuyCoins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sell_digital_assets/src/components/adminTransactionDetails/adminTransactionDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/sell_digital_assets/src/components/adminTransactionDetails/adminTransactionDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/models/verificationToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/models/verificationToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sell_digital_assets/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sell_digital_assets/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +47,16 @@
       <option name="presentableId" value="Default" />
       <updated>1650520699170</updated>
       <workItem from="1650520704105" duration="100000" />
-      <workItem from="1650521467810" duration="3351000" />
+      <workItem from="1650521467810" duration="8063000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed Bugs">
+      <created>1650538608898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650538608898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +77,9 @@
         <option value="$PROJECT_DIR$/backend/node_modules/sift/src/operations.js.map" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed Bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bugs" />
   </component>
 </project>
